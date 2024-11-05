@@ -8,6 +8,8 @@ Welcome to **UNethology**, a repository dedicated to showcasing the versatility 
 
 * **November 5, 2024:** [A new notebook](Brain_Tumor_Segmentation_UNet/how_to_visualize_features_map.ipynb) guiding you how to visualize feature map via hook function.
 
+![alt text](image.png)
+
 * **November 4, 2024:** Introduced a comprehensive Jupyter notebook detailing the training process of UNet for brain tumor segmentation on MRI images. This notebook covers data loading, dataset and dataloader creation, model setup with MONAI's BasicUNet, and the training pipeline using PyTorch Lightning. The project highlights the integration of UNet with advanced medical imaging frameworks for precise segmentation tasks. You can get data via [Brain_Tumor_Segmentation_UNet/data_get.ipynb](Brain_Tumor_Segmentation_UNet/data_get.ipynb), 
 train in [Brain_Tumor_Segmentation_UNet/train.ipynb](Brain_Tumor_Segmentation_UNet/train.ipynb). This project is the most detailed-detailed-ever one including how to assess model, plotting results. I will update this part in the following days.
  
