@@ -15,6 +15,9 @@ def visualize_feature_map(feature_map: torch.Tensor, channels_per_row: int = 8, 
         
         channels_per_row (int): 每行显示的通道数，默认值为8。
         cmap (str): 可视化的颜色映射方案，默认为 'viridis'。
+
+        使用方法示例
+        visualize_feature_map(feature_map, channels_per_row=8, cmap='viridis')
     """
     num_channels = feature_map.shape[1]
     num_rows = math.ceil(num_channels / channels_per_row)

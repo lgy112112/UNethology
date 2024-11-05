@@ -7,6 +7,10 @@
 
 **最近更新：** 🏆
 
+* **2024年11月5日：** [如何可视化特征图。](Brain_Tumor_Segmentation_UNet/how_to_visualize_features_map.ipynb)
+
+![alt text](image.png)
+
 * **2024年11月4日：** 全面的 Jupyter 笔记本，详细描述了在 MRI 图像上对脑肿瘤进行分割的 UNet 训练过程。这个笔记本涵盖了数据加载、数据集和数据加载器的创建、使用 MONAI 的 BasicUNet 进行模型设置，以及使用 PyTorch Lightning 的训练流程。该项目突出了将 UNet 与先进的医学成像框架集成，以实现精确的分割任务。你可以通过 [Brain_Tumor_Segmentation_UNet/data_get.ipynb](Brain_Tumor_Segmentation_UNet/data_get.ipynb) 获取数据，
 在 [Brain_Tumor_Segmentation_UNet/train.ipynb](Brain_Tumor_Segmentation_UNet/train.ipynb) 中进行训练。我在这里写得非常详细，包括如何处理数据、可视化预测数据等等，我日后会常更新。
 
